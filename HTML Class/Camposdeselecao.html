@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cdeselecao</title> 
+</head>
+<body>
+  <h2>Checkbox</h2><!--pode marcar mais de uma opcao-->
+  <form action="#" method="post">
+    Quais cursos vai fazer: <br>
+    <input type="checkbox" name="html" >HTML <br>
+    <input type="checkbox" name="javascript" > JavaScript <br>
+    <input type="checkbox" name="css" > CSS <br>
+<hr>
+<h2>Radio</h2> <!--Pode marcar apenas uma opcao-->
+Qual curso vai fazer: <br>
+<input type="radio" name="curso" value="html">HTML <br>
+<input type="radio" name="curso" value="css">CSS <br>
+<input type="radio" name="curso" value="javascript" checked>JavaScript <br>
+<!-- o parametro checked serve tanto para radio quanto para checkbox
+ele preseleciona a opcao que recebeu o parametro checked-->
+<hr>
+<h2>Select</h2>
+<!--muito util quando o campo apresenta muitas opcoes-->
+Em que cidade voce mora:
+<select name="cidade">
+    <option value="blank"> </option>
+    <option value="maceio">Maceio</option>
+    <option value="sao paulo">Sao Paulo</option>
+    <option value="rio de janeiro">Rio de Janeiro</option>
+    <option value="aracaju">Aracaju</option>
+    <option value="manaus">Manaus</option>
+</select>
+  </form>  
+</body>
+</html>
