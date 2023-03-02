@@ -1,0 +1,35 @@
+<!-- PARAMETROS 
+action = define para onde as informacoes do formulario vao ser enviadas
+
+method = post = e mais recomendado por nao gravar os dados do usuario no historico
+
+autocomplete = permite que o navegador armazene os dados dos usuarios para fazer o autocomplete em 
+futuros acessos
+
+enctype = permite o envio de arquivos
+
+name = da um nome 
+
+novalidade = nao validar a informacao em um formulario
+
+target = enviar o formumlario para a mesma aba do navegador ou abrir uma nova aba
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+</head>
+<h1>Formularios em HTML</h1><hr>
+<body>
+    <h2>Campos de Texto</h2> 
+<form action="#" method="post">
+Nome: <input type="text" name="nome" placeholder="Informe o seu nome" required><br>
+Email: <input type="text" name="email"><br>
+CPF: <input type="text" name="cpf" maxlength="11" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}"> <br>
+Senha: <input type="password" name="senha" minlength="8"> <br>
+Descricao:<textarea name="descricao"></textarea>
+ 
+</form>
+</body>
+</html>
